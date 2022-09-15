@@ -26,4 +26,4 @@ with open('jumia.csv', 'w', encoding='utf8', newline='') as f:
             different_perc=items.find('div',class_="bdg _dsct _sm").text.replace('\n', '  ')
             commodity=items.find('h3', class_="name").text.replace('\n', '  ')
             description=[commodity,price,location,old_price,different_perc]
-            thewriter.writerow(description)
+            thewriter.writerow(description)"# data-engineering" 
